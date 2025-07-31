@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite Execution started-Configure the Reports]]>
+    </line>
+    <line>
+      <![CDATA[Connected with the Database]]>
+    </line>
+    <line>
+      <![CDATA[Configure parallel Execution]]>
+    </line>
+    <line>
+      <![CDATA[Launched the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[createCont_suppDateTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createCont_suppDateTest Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of the application]]>
+    </line>
+    <line>
+      <![CDATA[Logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[createContwithOrgTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createContwithOrgTest Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of the application]]>
+    </line>
+    <line>
+      <![CDATA[Logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[createcontTestTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createcontTestTest Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of the application]]>
+    </line>
+    <line>
+      <![CDATA[closed the browser]]>
+    </line>
+    <line>
+      <![CDATA[Launched the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[createNewOrgTestTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createNewOrgTestTest Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of the application]]>
+    </line>
+    <line>
+      <![CDATA[Logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[createOrg_IndAndTypeTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createOrg_IndAndTypeTest Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of the application]]>
+    </line>
+    <line>
+      <![CDATA[Logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[createOrg_Phno_TestTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createOrg_Phno_TestTest Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of the application]]>
+    </line>
+    <line>
+      <![CDATA[closed the browser]]>
+    </line>
+    <line>
+      <![CDATA[close Configuration of parallel Execution]]>
+    </line>
+    <line>
+      <![CDATA[closed Connection with the Database]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-30T18:30:12 IST" name="Suite" finished-at="2025-07-30T18:35:10 IST" duration-ms="298052">
+    <groups>
+      <group name="reg">
+        <method signature="ContactScenariosTest.createCont_suppDate()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" name="createCont_suppDate" class="ContactModule.ContactScenariosTest"/>
+        <method signature="ContactScenariosTest.createContwithOrg()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" name="createContwithOrg" class="ContactModule.ContactScenariosTest"/>
+        <method signature="OrgScenariosTest.createOrg_IndAndType()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" name="createOrg_IndAndType" class="OrganizationModule.OrgScenariosTest"/>
+        <method signature="OrgScenariosTest.createOrg_Phno_Test()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" name="createOrg_Phno_Test" class="OrganizationModule.OrgScenariosTest"/>
+      </group> <!-- reg -->
+      <group name="smoke">
+        <method signature="ContactScenariosTest.createcontTest()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" name="createcontTest" class="ContactModule.ContactScenariosTest"/>
+        <method signature="OrgScenariosTest.createNewOrgTest()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" name="createNewOrgTest" class="OrganizationModule.OrgScenariosTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-07-30T18:30:12 IST" name="Test" finished-at="2025-07-30T18:35:10 IST" duration-ms="298052">
+      <class name="ContactModule.ContactScenariosTest">
+        <test-method is-config="true" signature="getConnectionToDB()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:30:10 IST" name="getConnectionToDB" finished-at="2025-07-30T18:30:12 IST" duration-ms="1258" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connected with the Database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getConnectionToDB -->
+        <test-method is-config="true" signature="conParallelExe()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:30:12 IST" name="conParallelExe" finished-at="2025-07-30T18:30:12 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Configure parallel Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- conParallelExe -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:30:12 IST" name="launchTheBrowser" finished-at="2025-07-30T18:30:18 IST" duration-ms="6438" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:30:18 IST" name="login" finished-at="2025-07-30T18:30:29 IST" duration-ms="11043" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCont_suppDate()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:30:29 IST" name="createCont_suppDate" finished-at="2025-07-30T18:31:49 IST" duration-ms="79798" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createCont_suppDateTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createCont_suppDateTest Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCont_suppDate -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:31:49 IST" name="logout" finished-at="2025-07-30T18:31:59 IST" duration-ms="9389" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:31:59 IST" name="login" finished-at="2025-07-30T18:32:03 IST" duration-ms="3981" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createContwithOrg()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:32:03 IST" name="createContwithOrg" finished-at="2025-07-30T18:32:49 IST" duration-ms="45972" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createContwithOrgTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createContwithOrgTest Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContwithOrg -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:32:49 IST" name="logout" finished-at="2025-07-30T18:32:54 IST" duration-ms="4977" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:32:54 IST" name="login" finished-at="2025-07-30T18:32:59 IST" duration-ms="5419" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createcontTest()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:32:59 IST" name="createcontTest" finished-at="2025-07-30T18:33:20 IST" duration-ms="20967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createcontTestTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createcontTestTest Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createcontTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:33:20 IST" name="logout" finished-at="2025-07-30T18:33:27 IST" duration-ms="7218" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:33:27 IST" name="closeTheBrowser" finished-at="2025-07-30T18:33:28 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closed the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeParalelExe()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:35:10 IST" name="closeParalelExe" finished-at="2025-07-30T18:35:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close Configuration of parallel Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeParalelExe -->
+        <test-method is-config="true" signature="closeConnectionWithDB()[pri:0, instance:ContactModule.ContactScenariosTest@185a6e9]" started-at="2025-07-30T18:35:10 IST" name="closeConnectionWithDB" finished-at="2025-07-30T18:35:10 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closed Connection with the Database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeConnectionWithDB -->
+      </class> <!-- ContactModule.ContactScenariosTest -->
+      <class name="OrganizationModule.OrgScenariosTest">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" started-at="2025-07-30T18:33:28 IST" name="launchTheBrowser" finished-at="2025-07-30T18:33:29 IST" duration-ms="1780" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" started-at="2025-07-30T18:33:29 IST" name="login" finished-at="2025-07-30T18:33:37 IST" duration-ms="7371" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createNewOrgTest()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" started-at="2025-07-30T18:33:37 IST" name="createNewOrgTest" finished-at="2025-07-30T18:33:58 IST" duration-ms="21207" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createNewOrgTestTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createNewOrgTestTest Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewOrgTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" started-at="2025-07-30T18:33:58 IST" name="logout" finished-at="2025-07-30T18:34:04 IST" duration-ms="6085" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" started-at="2025-07-30T18:34:04 IST" name="login" finished-at="2025-07-30T18:34:09 IST" duration-ms="4967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrg_IndAndType()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" started-at="2025-07-30T18:34:09 IST" name="createOrg_IndAndType" finished-at="2025-07-30T18:34:30 IST" duration-ms="20912" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrg_IndAndTypeTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createOrg_IndAndTypeTest Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrg_IndAndType -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" started-at="2025-07-30T18:34:30 IST" name="logout" finished-at="2025-07-30T18:34:35 IST" duration-ms="5335" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" started-at="2025-07-30T18:34:35 IST" name="login" finished-at="2025-07-30T18:34:40 IST" duration-ms="4439" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrg_Phno_Test()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" started-at="2025-07-30T18:34:40 IST" name="createOrg_Phno_Test" finished-at="2025-07-30T18:35:05 IST" duration-ms="24751" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrg_Phno_TestTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createOrg_Phno_TestTest Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrg_Phno_Test -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" started-at="2025-07-30T18:35:05 IST" name="logout" finished-at="2025-07-30T18:35:09 IST" duration-ms="4643" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:OrganizationModule.OrgScenariosTest@1fa121e2]" started-at="2025-07-30T18:35:09 IST" name="closeTheBrowser" finished-at="2025-07-30T18:35:10 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closed the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- OrganizationModule.OrgScenariosTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

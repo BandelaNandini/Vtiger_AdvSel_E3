@@ -1,0 +1,7 @@
+{
+"browser":"chrome",
+"url":"http://localhost:8888/",
+"Username":"admin",
+"Password":"password",
+"Timeouts":10
+}

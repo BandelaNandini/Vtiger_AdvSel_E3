@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ContactModule.ContactScenariosTest">
+        <methods>
+          <include name="createCont_suppDate"/>
+          <include name="launchTheBrowser"/>
+          <include name="closeTheBrowser"/>
+          <include name="createContwithOrg"/>
+          <include name="createcontTest"/>
+          <include name="login"/>
+          <include name="getConnectionToDB"/>
+          <include name="conParallelExe"/>
+          <include name="closeConnectionWithDB"/>
+          <include name="logout"/>
+          <include name="closeParalelExe"/>
+        </methods>
+      </class> <!-- ContactModule.ContactScenariosTest -->
+      <class name="OrganizationModule.OrgScenariosTest">
+        <methods>
+          <include name="launchTheBrowser"/>
+          <include name="closeTheBrowser"/>
+          <include name="login"/>
+          <include name="createOrg_Phno_Test"/>
+          <include name="createOrg_IndAndType"/>
+          <include name="getConnectionToDB"/>
+          <include name="conParallelExe"/>
+          <include name="logout"/>
+          <include name="closeConnectionWithDB"/>
+          <include name="closeParalelExe"/>
+          <include name="createNewOrgTest"/>
+        </methods>
+      </class> <!-- OrganizationModule.OrgScenariosTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
