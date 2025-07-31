@@ -21,6 +21,8 @@ import POMUtilities.OrgInfoPomPage;
 import POMUtilities.OrgPomPage;
 import POMUtilities.contactPomPage;
 
+
+//Contact test scenarios
 @Listeners(ListenersUtility.Listeners.class)
 public class ContactScenariosTest extends Baseclass {
 
