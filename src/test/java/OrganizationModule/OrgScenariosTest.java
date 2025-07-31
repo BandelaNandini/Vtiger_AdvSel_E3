@@ -20,6 +20,7 @@ import POMUtilities.HomePomPage;
 import POMUtilities.OrgInfoPomPage;
 import POMUtilities.OrgPomPage;
 
+//Org test scenario
 @Listeners(ListenersUtility.Listeners.class)
 public class OrgScenariosTest extends Baseclass {
 	@Test(groups = "smoke", retryAnalyzer = ListenersUtility.IRetryAnalyzerUtility.class)
